@@ -1,224 +1,332 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-		
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Set your presentation theme: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black</a>  -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
 
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section id="themes">
+				<h2>Themes</h2>
+				<p>
+					Set your presentation theme: <br>
+					<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige
+						(default)</a> -
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a>
+					<br>
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a>
+					-
+					<a href="#"
+						onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+				</p>
+			</section>
+
+			<section>
+				<h1>The first photo of a black hole</h1>
+				<ul>
+					<li>Dago Alexander Fonseca</li>
+					<li>Camilo Andres Pinzon</li>
+					<li>Jhon Emmanuel Torres</li>
+				</ul>
+			</section>
+			<section data-background-image="img/blackhole.jpg"></section>
+			<section>
+				<h2>¿What is a black hole?</h2>
+				<p>A black hole is not really a hole. It is an object in space with an incredible mass grouped in a very small
+					area. All that mass creates a gravitational force so huge that nothing can escape, including light.</p>
+			</section>
+			<section>
 				<section>
-					<h1>The first photo of a black hole</h1>
+					<h1>Acquire</h1>
+				</section>
+				<section>
+					<p>A team created a network of telescopes known as the <span class="font-weight-bold">Event Horizon
+							Telescope</span>, or the <span class="font-weight-bold">EHT</span>. They set out to capture an image of a
+						black hole by improving upon a technique that allows for the imaging of far-away objects, known as <span
+							class="font-weight-bold">Very Long Baseline Interferometry</span>, or <span>VLBI</span>.</p>
+
+					<p>To see details in objects that are far away and appear small and dim from Earth, we need to gather as much
+						light as possible with very high resolution, so they need to use a telescope with a large aperture.</p>
+				</section>
+				<section>
+					<p>To see details in objects that are far away and appear small and dim from Earth, we need to gather as much
+						light as possible with very high resolution, so we need to use a telescope with a large aperture.</p>
+					<img src="./img/alma_array.jpg" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h2>Possible objectives</h2>
 					<ul>
-						<li>Dago Alexander Fonseca</li>
-						<li>Camilo Andres Pinzon</li>
-						<li>Jhon Emmanuel Torres</li>
+						<li><span class="font-weight-bold">Sagittarius A*:</span> interested the team because it is in our galactic
+							backyard – at the center of our Milky Way galaxy, 26,000 light-years (156 quadrillion miles) away. (An
+							asterisk is the astronomical standard for denoting a black hole.)</li>
+						<li><span class="font-weight-bold">M87*:</span> One of the largest known supermassive black holes, M87* is
+							located at the center of the gargantuan elliptical galaxy Messier 87, or M87, 53 million light-years (318
+							quintillion miles) away.</li>
 					</ul>
 				</section>
-				<section data-background-image="img/blackhole.jpg"></section>
 				<section>
-					<h2>¿What is a black hole?</h2>
-					<p>A black hole is not really a hole. It is an object in space with an incredible mass grouped in a very small area. All that mass creates a gravitational force so huge that nothing can escape, including light.</p>
+					<h2>Telescopes</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/MTqEeW6Q50Q" frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+				<section data-background-image="img/EHTarray.png" data-background-size="contain"></section>
+				<section>
+					<h2>History</h2>
+					<p>By 2017, the EHT was a collaboration of eight sites around the world – and more have been added since then.
+						Before the team could begin collecting data, <span class="font-weight-bold"> they had to find a time when
+							the weather was likely to be conducive to telescope viewing at every location. </span></p>
+					<p>For M87*, <span class="font-weight-bold">the team tried for good weather in April 2017 and, of the 10 days
+							chosen for observation, a whopping four days were clear at all eight sites!</span></p>
 				</section>
 				<section>
-					<section>
-						<h1>Acquire</h1>
-					</section>
-					<section>
-						<p>A team created a network of telescopes known as the <span class="font-weight-bold">Event Horizon Telescope</span>, or the <span class="font-weight-bold">EHT</span>. They set out to capture an image of a black hole by improving upon a technique that allows for the imaging of far-away objects, known as <span class="font-weight-bold">Very Long Baseline Interferometry</span>, or <span>VLBI</span>.</p>
-
-						<p>To see details in objects that are far away and appear small and dim from Earth, we need to gather as much light as possible with very high resolution, so they need to use a telescope with a large aperture.</p>
-					</section>
-					<section>
-						<p>To see details in objects that are far away and appear small and dim from Earth, we need to gather as much light as possible with very high resolution, so we need to use a telescope with a large aperture.</p>
-						<img src="./img/alma_array.jpg" alt="EHT array of telescopes" class="img-array-eht">						
-					</section>
-					<section>
-						<h2>Possible objectives</h2>
-						<ul>
-							<li><span class="font-weight-bold">Sagittarius A*:</span> interested the team because it is in our galactic backyard – at the center of our Milky Way galaxy, 26,000 light-years (156 quadrillion miles) away. (An asterisk is the astronomical standard for denoting a black hole.)</li>
-							<li><span class="font-weight-bold">M87*:</span> One of the largest known supermassive black holes, M87* is located at the center of the gargantuan elliptical galaxy Messier 87, or M87, 53 million light-years (318 quintillion miles) away.</li>
-						</ul>
-					</section>					
-					<section>
-						<h2>Telescopes</h2>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/MTqEeW6Q50Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-					</section>
-					<section data-background-image="img/EHTarray.png" data-background-size="contain"></section>
-					<section>
-						<h2>History</h2>
-						<p>By 2017, the EHT was a collaboration of eight sites around the world – and more have been added since then. Before the team could begin collecting data, <span class="font-weight-bold"> they had to find a time when the weather was likely to be conducive to telescope viewing at every location. </span></p>
-						<p>For M87*, <span class="font-weight-bold">the team tried for good weather in April 2017 and, of the 10 days chosen for observation, a whopping four days were clear at all eight sites!</span></p>
-					</section>
-					<section>
-						<h2>Observation</h2>
-						<p>Each telescope used for the EHT had to be  <span class="font-weight-bold">highly synchronized </span> with the others to within a fraction of a millimeter using an atomic clock locked onto a GPS time standard. This degree of precision makes the EHT capable of resolving objects about 4,000 times better than the Hubble Space Telescope. This degree of precision makes the EHT capable of resolving objects about 4,000 times better than the Hubble Space Telescope.</p>
-					</section>
-					<section>
-						<p><p>The recorded media were then  <span class="font-weight-bold">physically transported</span> to a central location because the amount of data, around  <span class="font-weight-bold">5 petabytes</span>. The team is also working on generating an image of Sagittarius A* from additional observations made by the EHT.</p></p>
-					</section>
+					<h2>Observation</h2>
+					<p>Each telescope used for the EHT had to be <span class="font-weight-bold">highly synchronized </span> with
+						the others to within a fraction of a millimeter using an atomic clock locked onto a GPS time standard. This
+						degree of precision makes the EHT capable of resolving objects about 4,000 times better than the Hubble
+						Space Telescope. This degree of precision makes the EHT capable of resolving objects about 4,000 times
+						better than the Hubble Space Telescope.</p>
 				</section>
-
+				<section>
+					<p>
+						<p>The recorded media were then <span class="font-weight-bold">physically transported</span> to a central
+							location because the amount of data, around <span class="font-weight-bold">5 petabytes</span>. The team is
+							also working on generating an image of Sagittarius A* from additional observations made by the EHT.</p>
+					</p>
+				</section>
+			</section>
+			<section>
 				<section>
 					<h1>parse</h1>
 					<p>Provide some structure for the data’s meaning, and order it into categories.</p>
 				</section>
 				<section>
-					<section>
-						<h1>Filter</h1>
-						<p>Remove all but the data of interest.</p>
-					</section>					
-					<section>
-						<p>An atomic clock registers the precise moment in which it receives the signals.</p>
-						<img src="./img/reloj.jpg" alt="EHT array of telescopes" class="img-array-eht">					
-					</section>
-					<section>
-						<p>Water vapor in the atmosphere affects the measurements.</p>
-						<img src="./img/vapor.png" alt="EHT array of telescopes" class="img-array-eht">											
-					</section>
+					<h1>parse</h1>
+					<p>Provide some structure for the data’s meaning, and order it into categories.</p>
+					<img src="./img/parse.png" alt="Table Parse">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Filter</h1>
+					<p>Remove all but the data of interest.</p>
 				</section>
 				<section>
-					<section>
-						<h1>Mine</h1>
-						<p> Apply methods from statistics or data mining as a way to discern patterns or place the data in mathematical context.</p>
-					</section>
-					<section>
-						<h2>Inverse Fourier transform.</h2>
-						<img src="./img/transformadai.gif" alt="EHT array of telescopes" class="img-array-eht">					
-					</section>
-					<section>
-						<h4>Few components.</h4>
-						<img src="./img/fewcomp.gif" alt="EHT array of telescopes" class="img-array-eht">					
-					</section>
-					<section>
-						<h4>Multiple interpretations.</h4>
-						<img src="./img/interpretaciones.png" alt="EHT array of telescopes" class="img-array-eht">					
-					</section>
-					<section>
-						<h4>Inverse Modeling Techniques.</h4>
-						<img src="./img/clean.gif" alt="EHT array of telescopes" class="img-array-eht">
-						<p>The most used is the "Clean" algorithm.</p>					
-					</section>
-					<section>
-						<h4>Regularized Maximum Likelihood (RML).</h4>
-						<img src="./img/rml.gif" alt="EHT array of telescopes" class="img-array-eht">
-					</section>
-					<section>
-						<h4>Work methodology.</h4>
-						<img src="./img/team.png" alt="EHT array of telescopes" class="img-array-eht">
-					</section>
-					<section>
-						<h4>Results.</h4>
-						<img src="./img/teamresult.png" alt="EHT array of telescopes" class="img-array-eht">
-					</section>
-					<section>
-						<h4>Common elements.</h4>
-						<img src="./img/coincidencias.jpg" alt="EHT array of telescopes" class="img-array-eht">
-					</section>								
+					<p>An atomic clock registers the precise moment in which it receives the signals.</p>
+					<img src="./img/reloj.jpg" alt="EHT array of telescopes" class="img-array-eht">
 				</section>
+				<section>
+					<p>Water vapor in the atmosphere affects the measurements.</p>
+					<img src="./img/vapor.png" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Mine</h1>
+					<p> Apply methods from statistics or data mining as a way to discern patterns or place the data in
+						mathematical context.</p>
+				</section>
+				<section>
+					<h2>Inverse Fourier transform.</h2>
+					<img src="./img/transformadai.gif" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h4>Few components.</h4>
+					<img src="./img/fewcomp.gif" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h4>Multiple interpretations.</h4>
+					<img src="./img/interpretaciones.png" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h4>Inverse Modeling Techniques.</h4>
+					<img src="./img/clean.gif" alt="EHT array of telescopes" class="img-array-eht">
+					<p>The most used is the "Clean" algorithm.</p>
+				</section>
+				<section>
+					<h4>Regularized Maximum Likelihood (RML).</h4>
+					<img src="./img/rml.gif" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h4>Work methodology.</h4>
+					<img src="./img/team.png" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h4>Results.</h4>
+					<img src="./img/teamresult.png" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+				<section>
+					<h4>Common elements.</h4>
+					<img src="./img/coincidencias.jpg" alt="EHT array of telescopes" class="img-array-eht">
+				</section>
+			</section>
+			<section>
 				<section>
 					<h1>Represent</h1>
 					<p>Choose a basic visual model, such as a bar graph, list, or tree.</p>
 				</section>
 				<section>
+					<h1>Represent</h1>
+					<p>Choose a basic visual model, such as a bar graph, list, or tree.</p>
+					<img src="./img/blackhole.jpg" alt="Black Hole" class="img-array-eht">
+				</section>
+				<section>
+					<h1>Represent</h1>
+					<p>Choose a basic visual model, such as a bar graph, list, or tree.</p>
+					<img src="./img/refine1.png" alt="REpresentation 2">
+				</section>
+				<section>
+					<h1>Represent</h1>
+					<p>Choose a basic visual model, such as a bar graph, list, or tree.</p>
+					<img src="./img/refine2.jpeg" alt="Representation 3">
+				</section>
+				<section>
+					<h1>Represent</h1>
+					<p>Choose a basic visual model, such as a bar graph, list, or tree.</p>
+					<img src="./img/refine3.png" alt="REpresentation 4">
+				</section>
+			</section>
+			<section>
+				<section>
 					<h1>Refine</h1>
 					<p>Improve the basic representation to make it clearer and more visually engaging.</p>
 				</section>
 				<section>
-					<h1>Interact</h1>
-					<p>Add methods for manipulating the data or controlling what features are visible.</p>
-				</section>
-				
-				<section>
-					<section>
-						<h1>Why It's Important</h1>
-					</section>
-					<section>
-						<img src="./img/einstein.jpg" alt="einstein draw">
-						<p>Allows us to test observation methods and theories, such as Einstein’s theory of general relativity</p>
-					</section>
-					<section>
-						<img src="./img/einstein.jpg" alt="einstein draw">
-						<p>Theory of general relativity has directly been proven accurate for smaller-mass objects, such as Earth and the Sun, the theory has not yet been directly proven for black holes and other regions containing dense matter.</p>						
-					</section>
-					<section>
-						<img src="./img/math.jpg" alt="equations">
-						<p>One of the main results of the EHT black hole imaging project is a more direct calculation of a black hole’s mass than ever before.</p>
-					</section>
+					<h1>Refine</h1>
+					<p>Improve the basic representation to make it clearer and more visually engaging.</p>
+					<div style="display: flex;">
+						<img src="./img/represent1.jpeg" alt="Refine 1" style="width: 33%;">
+						<img src="./img/represent2.jpeg" alt="Refine 2" style="width: 33%;">
+						<img src="./img/represent3.jpeg" alt="Refine 3" style="width: 33%;">
+					</div>
 				</section>
 				<section>
-					<h2>Zooming in to the Heart of Messier 87</h2>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/19to087TYv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h1>Refine</h1>
+					<p>Improve the basic representation to make it clearer and more visually engaging.</p>
+					<img src="./img/refine4.png" alt="Refine 4" class="img-array-eht">
 				</section>
+			</section>
+			<section>
+				<h1>Interact</h1>
+				<p>Add methods for manipulating the data or controlling what features are visible.</p>
+			</section>
+			<section>
+				<section>
+					<h1>Principles</h1>
+					<p>They are some ways of thinking about data and its representation.</p>
+				</section>
+				<section>
+						<h1>Principles</h1>
+						<ol>
+							<li>Each Project Has Unique Requirements</li>
+							<li>Avoid the All-You-Can-Eat Buffet</li>
+							<li>Know Your Audience</li>
+						</ol>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Why It's Important</h1>
+				</section>
+				<section>
+					<img src="./img/einstein.jpg" alt="einstein draw">
+					<p>Allows us to test observation methods and theories, such as Einstein’s theory of general relativity</p>
+				</section>
+				<section>
+					<img src="./img/einstein.jpg" alt="einstein draw">
+					<p>Theory of general relativity has directly been proven accurate for smaller-mass objects, such as Earth and
+						the Sun, the theory has not yet been directly proven for black holes and other regions containing dense
+						matter.</p>
+				</section>
+				<section>
+					<img src="./img/math.jpg" alt="equations">
+					<p>One of the main results of the EHT black hole imaging project is a more direct calculation of a black
+						hole’s mass than ever before.</p>
+				</section>
+			</section>
+			<section>
+				<h2>Zooming in to the Heart of Messier 87</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/19to087TYv8" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
 
-				<section>
-					<h1>Thanks</h1>
-				</section>
+			<section>
+				<h1>Thanks</h1>
+			</section>
 
-				<section>
-					<h1>References</h1>
-					<ol>
-						<li>https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/</li>
-						<li>https://eventhorizontelescope.org/science</li>
-					</ol>
-				</section>
+			<section>
+				<h1>References</h1>
+				<ol>
+					<li>https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/</li>
+					<li>https://eventhorizontelescope.org/science</li>
+					<li>Ben, Fry. Visualizing Data. O’Reilly. 2008</li>
+				</ol>
+			</section>
 
-			</div>
 		</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
 </html>
